@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--Color1: #406082;
+	--Color2: #ff4727;
+	--Color3: #672d60;
+	--COlor4: #fffbfa;
+	font-family: "Roboto", sans-serif;
+}
+body {
+	background-color: var(--Color1);
+}
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.Calculadora {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 195px;
+	height: auto;
+	gap: 5px;
+}
+button {
+	padding: 5px;
+	font-size: large;
+	width: 40px;
+	height: 40px;
+}
+.LCDScreen {
+	font-family: Quantico, sans-serif;
+	width: 175px;
+}
